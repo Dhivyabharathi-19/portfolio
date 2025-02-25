@@ -343,3 +343,60 @@ ul.list-inline .list-inline-item {
     color: #000000;
     margin-bottom: 1.5rem !important;
 }
+.footer{
+    padding: 100px;
+    padding-bottom: 15px;
+    
+}
+.para{
+    font-family: "Nunito", sans-serif;
+    padding-top: 20px;
+    font-size: 4px;
+    color: #6c757d;
+}
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #6c757d;
+    font-size: 20px;
+}
+.navigation {
+    font-family: "Nunito", sans-serif;
+    padding-left: 0;
+    list-style: none;
+    color: #6c757d;
+    
+}
+.list-services{
+    font-family: "Nunito", sans-serif;
+    padding-left: 0;
+    list-style: none;
+    color: #6c757d;
+}
+.navigation li a {
+    font-family: "Nunito", sans-serif;
+    color: #6c757d; 
+    text-decoration: none;
+    font-size: 12px;
+}
+.list-services li a {
+    color: #6c757d;
+    text-decoration: none;
+    font-size: 12px;
+}
+.addr{
+    font-family: "Nunito", sans-serif;
+    color: #6c757d; 
+    font-size: 4px; 
+}
+.copyright {
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 5px;
+    color: #888;
+}
+.copyright p a{
+
+    color: #a5c887;
+}
