@@ -204,6 +204,7 @@ ul.list-inline .list-inline-item {
     font-weight: 500;
     line-height: 1.2;
     margin-top: 0;
+    border-bottom: 1px solid #ddd;
 }
 .period{
     text-transform: uppercase;
@@ -226,4 +227,119 @@ ul.list-inline .list-inline-item {
 }
 .resume-img img{
     height: 500px;
+}
+.clients{
+    padding-top: 100px;
+    padding-bottom: 25px;
+    font-family: "Nunito", sans-serif;
+    color: #000000;
+}
+.content{
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.content p {
+    font-size: 16px;
+    color: #666;
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 1rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.content .author {
+    font-style: italic;
+    color: #6c757d;
+}
+.content .author span {
+   
+    color: #28a745;
+    font-family: "Nunito", sans-serif;
+    line-height: 1.6;
+    font-style: italic;
+    
+}
+.profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+.medium{
+    font-family: Arial, sans-serif;
+    text-align: center;
+   
+}
+.read{
+    padding-top: 100px;
+    padding-bottom: 25px;
+    font-family: "Nunito", sans-serif;
+    color: #000000;
+}
+.article-name {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+.article {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+.date {
+    font-size: 12px;
+    letter-spacing: .2rem;
+    color: #ccc;
+    text-transform: uppercase;
+}
+.title {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.75rem;
+    color: #000000;
+    font-family: "Nunito", sans-serif;
+}
+.read-time {
+    font-size: 12px;
+    letter-spacing: .2rem;
+    color: #ccc;
+    text-transform: uppercase;
+    float:right;
+}
+.contact-heading{
+    padding-top: 100px;
+    padding-bottom: 25px;
+    font-family: "Nunito", sans-serif;
+    color: #000000;
+}
+.form-control{
+     border:none;
+     border-bottom: 1px solid #43434d;
+}
+.form-group{
+    color: #939393;
+    font-family: "Nunito", sans-serif;
+    margin-bottom: .5rem;
+}
+.btn.btn-primary {
+    background: #96bb7c;
+    border-color: #96bb7c;
+}
+.contact-info{
+    color: #a5c887;
+    margin-right: 10px;
+}
+.info{
+    font-size:5px ;
+}
+.h3{
+    font-family: "Nunito", sans-serif;
+    color: #000000;
+    margin-bottom: 1.5rem !important;
 }
