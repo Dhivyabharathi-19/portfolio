@@ -8,19 +8,22 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="header">
-        <nav class="navbar navbar-expand-lg ">
+    <section class="header" id="home">
+        <nav class="navbar navbar-expand-lg">
           <div class="container">
-            <a class="navbar-brand" href="#">JA</a>
+            <a class="navbar-brand  logo" href="#home">JA</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
+                        <a class="nav-link active  text-white" href="#home">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -34,22 +37,22 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about-section">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="#service">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Resume</a>
+                        <a class="nav-link" href="#resume">Resume</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link" href="#blog">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -63,17 +66,17 @@
     </div>
 </section>
 
-<section class="bodysection container">
-    <div class="contain mt-5">
+<section class="bodysection container" id="about-section">
+    <div class="container mt-5">
         <div class="row py-5">
-            <div class="hero2 col-md-6">
-               <img src="https://preview.colorlib.com/theme/orbit/images/hero_img.jpg.webp" alt="Hero Image"
+            <div class="image-wrap hero2 col-md-6">
+               <img src="https://preview.colorlib.com/theme/orbit/images/image_1_long.jpg" alt="Hero Image"
                 class="img-fluid">
             </div> 
             <div class="col-md-6">
 
                 <h1>My Bio</h1>
-                <div class="content">
+                <div class="para">
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
                      there live the blind texts.
                      Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
@@ -84,7 +87,7 @@
             </div>
                 <div class="skill">
                 <h4>Design</h4>
-                <div class="progress">
+                <div class="progress" style="height: 11px;">
                     <div class="progress-bar" role="progressbar" aria-valuenow="70" 
                         aria-valuemin="0" aria-valuemax="100" style="width:85%">
                        <span class="sr-only">85%</span>
@@ -93,7 +96,7 @@
             </div>
             <div class="skill">
                 <h4>HTML5</h4>
-                <div class="progress">
+                <div class="progress" style="height: 11px;">
                     <div class="progress-bar" role="progressbar" aria-valuenow="70" 
                         aria-valuemin="0" aria-valuemax="100" style="width:98%">
                        <span class="sr-only">98%</span>
@@ -102,7 +105,7 @@
             </div>
             <div class="skill">
                 <h4>CSS3</h4>
-                <div class="progress">
+                <div class="progress" style="height: 11px;">
                     <div class="progress-bar" role="progressbar" aria-valuenow="70" 
                         aria-valuemin="0" aria-valuemax="100" style="width:97%">
                        <span class="sr-only">97%</span>
@@ -111,7 +114,7 @@
             </div>
             <div class="skill">
                 <h4>Word Press</h4>
-                <div class="progress">
+                <div class="progress" style="height: 11px;">
                     <div class="progress-bar" role="progressbar" aria-valuenow="70" 
                         aria-valuemin="0" aria-valuemax="100" style="width:88%">
                        <span class="sr-only">88%</span>
@@ -120,7 +123,7 @@
             </div>
             <div class="skill">
                 <h4>Bootstrap</h4>
-                <div class="progress">
+                <div class="progress" style="height: 11px;">
                     <div class="progress-bar" role="progressbar" aria-valuenow="70" 
                         aria-valuemin="0" aria-valuemax="100" style="width:92%">
                        <span class="sr-only">92%</span>
@@ -134,7 +137,7 @@
     </div>
 </section>
 
-<section class="portfolio-section container">
+<section class="portfolio-section container" id="portfolio">
     <div class="row">
         <div class="section-heading text-center col-md-12" data-aos="fade-up">
             <h2>My Portfolio</h2>
@@ -164,7 +167,7 @@
 </section>
 
 
-    <section class="services-section">
+    <section class="services-section" id="service">
 <div class="services text-center"><h1>Services</h1></div>
     <div class="container mt-5">
     <div class="row g-4"> 
@@ -215,7 +218,7 @@
 </section>
   
          
-<section >
+<section id="resume">
   <div class="resume text-center"><h1>Resume</h1></div>
   <div class="container mt-4">
        
@@ -502,7 +505,7 @@
           </div>  
       </section>
 
-      <section class="medium">
+      <section class="medium" id="blog">
         <div class="read text-center"><h2>Read on Medium</h2></div>
        <div class="article-name">
            <div class="article">
@@ -522,7 +525,7 @@
            </div>
        </div>
    </section>
-   <section>
+   <section id="contact">
     <div class="contact-heading text-center"> <h2>Contact Me</h2></div>
     <div class="container contact-section">
        <div class="row g-5">
